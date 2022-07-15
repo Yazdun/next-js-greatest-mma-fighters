@@ -1,0 +1,7 @@
+export { default as gallery_1 } from './gallery_1.jpg'
+export { default as gallery_2 } from './gallery_2.jpg'
+export { default as gallery_3 } from './gallery_3.jpg'
+export { default as gallery_4 } from './gallery_4.jpg'
+export { default as gallery_5 } from './gallery_5.jpg'
+export { default as gallery_6 } from './gallery_6.jpg'
+export { default as thumbnail } from './thumbnail.jpg'
