@@ -1,7 +1,9 @@
+import { Layout } from '@components/index'
+
 export default function Home() {
   return (
-    <div>
-      <h1>mma fighters</h1>
-    </div>
+    <Layout>
+      <h1>MMA FIGHTERS</h1>
+    </Layout>
   )
 }
