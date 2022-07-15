@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+button,
+textarea,
+input {
+  font: inherit;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img,
+picture {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* focus visible */
+a:focus-visible,
+button:focus-visible {
+  box-shadow: var(--clr-primary-1) 0px 0px 0px 2px;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
