@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
+:root {
+  --clr-background-1: #f5f5ff;
+  --clr-background-2: ;
+  --clr-primary-1: ;
+  --clr-primary-2: ;
+  --boxshadow-1: #e0e4f0 0px 0px 0px 1px;
+  --maxwidth-1: 70rem;
+  --border-radius-1: 0.5rem;
+}
+
+[data-theme='dark'] {
+  --clr-background-1: #0d1117;
+  --clr-background-2: ;
+  --clr-primary-1: ;
+  --clr-primary-2: ;
+  --boxshadow-1: #424146 0px 0px 0px 1px;
+  --bs-1: ;
+}
+
 *,
 *::before,
 *::after {
@@ -10,6 +29,7 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
+  background-color: var(--clr-background-1);
 }
 
 a {
