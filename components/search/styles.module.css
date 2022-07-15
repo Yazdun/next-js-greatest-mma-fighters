@@ -1,0 +1,16 @@
+.input {
+  background-color: var(--clr-background-2);
+  padding: 1rem;
+  border-radius: var(--border-radius-1);
+  transition: 0.3s;
+  width: 100%;
+}
+
+.input:hover,
+.input:focus {
+  background-color: var(--clr-background-3);
+}
+
+.input::placeholder {
+  /* opacity: 0.6; */
+}
