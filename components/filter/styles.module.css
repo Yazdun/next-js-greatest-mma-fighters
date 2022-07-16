@@ -5,4 +5,12 @@
   padding-inline: 1rem;
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  border-radius: var(--border-radius-1);
+  background-color: var(--clr-primary-2);
+  color: var(--clr-primary-1);
 }
