@@ -2,7 +2,7 @@
   width: 100%;
   max-width: var(--maxwidth-1);
   margin: auto;
-  padding: 1rem;
+  padding-inline: 1rem;
   display: grid;
   gap: 1.5rem;
 }

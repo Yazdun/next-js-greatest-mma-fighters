@@ -1,9 +1,8 @@
 import React from 'react'
-import { fighters } from '@data/index'
 import { Fighter, Layout, SEO } from '@components/index'
 import css from './styles.module.css'
 
-export const Showcase = () => {
+export const Showcase = ({ fighters }) => {
   return (
     <div className={css.grid}>
       {fighters.map(fighter => {

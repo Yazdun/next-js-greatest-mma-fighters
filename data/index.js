@@ -13,7 +13,7 @@ import {
   jon_jones_assets,
 } from '@assets/index'
 
-export const fighters = [
+export const data = [
   {
     name: 'Anderson Silva',
     slug: 'anderson-silva',

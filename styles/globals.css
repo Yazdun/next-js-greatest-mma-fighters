@@ -4,6 +4,7 @@
   --clr-background-1: hsl(240, 100%, 98%);
   --clr-background-2: hsl(240, 100%, 96.5%);
   --clr-background-3: hsl(240, 100%, 95.1%);
+  --clr-foreground-1: hsl(214, 24%, 13%);
   --clr-primary-1: ;
   --clr-primary-2: ;
   --boxshadow-1: hsl(225, 35%, 91%) 0px 0px 0px 1px;
@@ -15,6 +16,7 @@
   --clr-background-1: hsl(216, 28%, 7%);
   --clr-background-2: hsl(215, 21%, 11%);
   --clr-background-3: hsl(215, 21%, 15.9%);
+  --clr-foreground-1: hsl(0, 0%, 93%);
   --clr-primary-1: ;
   --clr-primary-2: ;
   --boxshadow-1: hsl(252, 4%, 26%) 0px 0px 0px 1px;
@@ -32,6 +34,7 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   background-color: var(--clr-background-1);
+  color: var(--clr-foreground-1);
 }
 
 a {
