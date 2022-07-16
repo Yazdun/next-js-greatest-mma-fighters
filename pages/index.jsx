@@ -1,10 +1,12 @@
-import { Layout, SEO } from '@components/index'
+import { Layout, SEO, Showcase } from '@components/index'
 
 export default function Home() {
   return (
     <>
       <SEO />
-      <Layout>{/* <h1>MMA FIGHTERS</h1> */}</Layout>
+      <Layout>
+        <Showcase />
+      </Layout>
     </>
   )
 }
