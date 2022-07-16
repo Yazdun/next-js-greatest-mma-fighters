@@ -276,7 +276,7 @@ export const fighters = [
   {
     name: 'Max Holloway',
     slug: 'max-holloway',
-    division: [],
+    division: ['Featherweight', 'Lightweight'],
     nickname: 'Blessed',
     bio: "Jerome Max Holloway (born December 4, 1991) is an American professional mixed martial artist. He currently competes in the Featherweight division in the Ultimate Fighting Championship (UFC). A professional since 2010, Holloway became the UFC Featherweight Champion when he defeated José Aldo on June 3, 2017, before defending the title three times. As of March 29, 2021, he is #1 in UFC featherweight rankings and as of July 11, 2022 he is #10 in the UFC men's pound-for-pound rankings.",
     martial_arts: ['Mixed martial arts', 'Brazilian jiu-jitsu'],
@@ -301,7 +301,7 @@ export const fighters = [
   {
     name: 'Georges St-Pierre',
     slug: 'georges-st-pierre',
-    division: [],
+    division: ['Welterweight', 'Middleweight'],
     nickname: 'GSP',
     bio: 'Georges “Rush” St-Pierre is a Canadian mixed martial artist, actor, and former UFC champion in two weight classes. Often referred to as GSP, he is commonly regarded as one of the greatest mixed martial artists of all time. A native of Quebec, St-Pierre had a troubled childhood and started taking Kyokushin Karate lessons when he was seven years old. By the time he turned 16, he was learning wrestling, Brazilian Jiu-Jitsu, and boxing. St-Pierre began his professional career in January 2002 at the Ultimate Combat Championship in a match against Ivan Menjivar. He won the bout and went on to fight in UCC for another three matches before making his Ultimate Fighting Championship debut at UFC 46 against Karo Parisyan, a match that he also won. In the ensuing years, he won UFC Welterweight Championship three times and UFC Middleweight Championship one time and was listed as the Canadian Athlete of the Year by Rogers Sportsnet for 2008, 2009, and 2010. In 2013, St-Pierre vacated his Welterweight title and went on a four-year-long hiatus from the sport. He eventually returned in November 2017 to defeat Michael Bisping for the middleweight belt. However, he had to vacate soon after due to health issues.',
     martial_arts: [
@@ -335,7 +335,7 @@ export const fighters = [
   {
     name: 'Jon Jones',
     slug: 'jon-jones',
-    division: [],
+    division: ['Light heavyweight'],
     nickname: 'bones',
     bio: 'Jonathan Dwight Jones is a mixed martial artist from America who has won the UFC Light Heavyweight Championship twice. Generally considered to be one of the greatest mixed martial artists of all time, he has also become somewhat of a tragic figure and his life story, a cautionary tale. Raised in a middle-class family in New York, Jones’ life has been deeply influenced by religion since his childhood. He demonstrated prodigious skills as a wrestler in his school days and won the state championship at Union-Endicott High School in upstate New York. He was also involved in football as a defensive lineman. Initially, Jones was pursuing a degree in criminal justice but then his MMA career really took off and he dropped out of college to be a professional fighter. He made his professional debut in April 2008 against Brad Bernard, a match he won by a technical knockout. In a career spanning nearly a decade, Jones has won most of his matches and his only defeat came about because of a dubious decision made by the referee. He has won the UFC Light Heavyweight Championship twice only to be stripped of his title both the times. The first time he was stripped because of a hit-and-run case in 2015. He also lost the interim title because of a doping violation. Recently, in 2017, he was stripped after a positive drug test. The investigation is currently ongoing and if Jones is found guilty, he could find himself serving a four-year ban.',
     martial_arts: [
