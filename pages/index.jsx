@@ -1,4 +1,4 @@
-import { Layout, SEO, Showcase } from '@components/index'
+import { Filter, Layout, SEO, Showcase } from '@components/index'
 import { data } from '@data/index'
 import { useState } from 'react'
 
@@ -8,6 +8,7 @@ export default function Home() {
     <>
       <SEO />
       <Layout>
+        <Filter />
         <Showcase fighters={data} />
       </Layout>
     </>
