@@ -2,14 +2,15 @@ import React from 'react'
 import css from './styles.module.css'
 import { divisions } from '@data/index'
 
-export const Filter = ({}) => {
+export const Filter = ({ filter }) => {
   return (
     <ul className={css.container}>
       {divisions.map(division => {
-        const { name } = division
         return (
-          <li key={name}>
-            <button className={css.btn}>{name}</button>
+          <li key={division}>
+            <button onClick={() => filter(division)} className={css.btn}>
+              {division}
+            </button>
           </li>
         )
       })}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Fighter, Layout, SEO } from '@components/index'
+import { Fighter } from '@components/index'
 import css from './styles.module.css'
 
 export const Showcase = ({ fighters }) => {
