@@ -1,0 +1,16 @@
+.image {
+  border-radius: var(--border-radius-1);
+  overflow: hidden;
+  display: flex;
+  height: 10rem;
+}
+
+.container {
+  margin-block: 3rem;
+}
+
+@media only screen and (min-width: 800px) {
+  .image {
+    height: 14rem;
+  }
+}

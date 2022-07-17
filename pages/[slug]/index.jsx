@@ -1,9 +1,9 @@
-import { Flag, Layout, MartialArts, SEO } from '@components/index'
+import { Flag, Layout, MartialArts, SEO, Slider } from '@components/index'
 import { data } from '@data/index'
 import css from './styles.module.css'
 
 export default function Fighter(props) {
-  const { name, country, bio, martial_arts } = props.fighter
+  const { name, country, bio, martial_arts, gallery } = props.fighter
 
   return (
     <>
@@ -17,6 +17,7 @@ export default function Fighter(props) {
           <MartialArts collection={martial_arts} />
         </div>
         <p className={css.container}>{bio}</p>
+        <Slider slides={gallery} />
       </Layout>
     </>
   )
