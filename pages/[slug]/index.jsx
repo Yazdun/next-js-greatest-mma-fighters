@@ -1,12 +1,13 @@
 import { Layout, SEO } from '@components/index'
 import { data } from '@data/index'
 
-export default function Fighter() {
+export default function Fighter(props) {
+  const { fighter } = props
   return (
     <>
-      <SEO />
+      <SEO title={fighter.name} desc={fighter.bio} />
       <Layout>
-        <h1>fighter</h1>
+        <h1>{fighter.name}</h1>
       </Layout>
     </>
   )
