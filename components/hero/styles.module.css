@@ -1,0 +1,13 @@
+.hero {
+  width: 100%;
+  max-width: var(--maxwidth-1);
+  margin: 3rem auto;
+  padding-inline: 1rem;
+}
+
+.image {
+  /* width: 20rem; */
+  /* height: 20rem; */
+  border-radius: var(--border-radius-1);
+  overflow: hidden;
+}
