@@ -1,4 +1,4 @@
-import { Hero, Layout, SEO } from '@components/index'
+import { Card, Layout, SEO } from '@components/index'
 import { data } from '@data/index'
 
 export default function Fighter(props) {
@@ -7,7 +7,7 @@ export default function Fighter(props) {
     <>
       <SEO title={fighter.name} desc={fighter.bio} />
       <Layout>
-        <Hero fighter={fighter} />
+        <Card fighter={fighter} />
       </Layout>
     </>
   )
