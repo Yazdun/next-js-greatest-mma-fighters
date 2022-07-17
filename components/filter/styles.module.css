@@ -13,4 +13,18 @@
   border-radius: var(--border-radius-1);
   background-color: var(--clr-primary-2);
   color: var(--clr-primary-1);
+  transition: 0.3s background;
+  width: 100%;
+}
+
+.btn:hover,
+.active {
+  background-color: var(--clr-primary-1);
+  color: white;
+}
+
+@media only screen and (max-width: 490px) {
+  .item {
+    flex: 1 1 auto;
+  }
 }
