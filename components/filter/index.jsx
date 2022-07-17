@@ -20,8 +20,6 @@ export const Filter = ({ setFighters }) => {
     }
   }
 
-  console.log(current)
-
   return (
     <ul className={css.container}>
       {divisions.map(division => {

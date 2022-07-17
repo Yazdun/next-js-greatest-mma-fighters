@@ -23,8 +23,6 @@
   color: white;
 }
 
-@media only screen and (max-width: 490px) {
-  .item {
-    flex: 1 1 auto;
-  }
+.item {
+  flex: 1 1 auto;
 }

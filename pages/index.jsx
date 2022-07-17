@@ -10,7 +10,7 @@ export default function Home() {
       <SEO />
       <Layout>
         <Filter setFighters={setFighters} />
-        <Showcase fighters={fighters} key={fighters} />
+        <Showcase fighters={fighters} />
       </Layout>
     </>
   )
