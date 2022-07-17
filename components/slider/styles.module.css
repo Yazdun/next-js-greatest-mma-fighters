@@ -3,6 +3,7 @@
   overflow: hidden;
   display: flex;
   height: 10rem;
+  background-color: var(--clr-background-2);
 }
 
 .container {

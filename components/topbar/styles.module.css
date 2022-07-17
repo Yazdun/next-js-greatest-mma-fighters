@@ -8,5 +8,13 @@
   margin: auto;
   padding: 1rem;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 2rem;
+}
+
+.link {
+  font-weight: 900;
+  font-size: 2rem;
+  font-family: var(--ff-display);
 }
