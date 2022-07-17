@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import css from './styles.module.css'
-import { data, divisions } from '@data/index'
+import { data } from '@data/index'
+import { divisions } from './divisions'
 import cn from 'classnames'
 
 export const Filter = ({ setFighters }) => {
