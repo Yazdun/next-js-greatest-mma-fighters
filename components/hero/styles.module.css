@@ -6,8 +6,7 @@
 }
 
 .image {
-  /* width: 20rem; */
-  /* height: 20rem; */
   border-radius: var(--border-radius-1);
   overflow: hidden;
+  display: flex;
 }
