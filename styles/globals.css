@@ -5,6 +5,7 @@
   --clr-background-2: hsl(240, 100%, 96.5%);
   --clr-background-3: hsl(240, 100%, 95.1%);
   --clr-foreground-1: hsl(214, 24%, 13%);
+  --clr-foreground-2: hsl(214, 98%, 61%);
   --clr-primary-1: #0e7af5;
   --clr-primary-2: #dae6f8;
   --boxshadow-1: hsl(225, 35%, 91%) 0px 0px 0px 1px;
@@ -17,6 +18,7 @@
   --clr-background-2: hsl(215, 21%, 11%);
   --clr-background-3: hsl(215, 21%, 15.9%);
   --clr-foreground-1: hsl(0, 0%, 93%);
+  --clr-foreground-2: hsl(214, 32%, 53%);
   --clr-primary-1: #58a6ff;
   --clr-primary-2: #1b2c43;
   --boxshadow-1: hsl(252, 4%, 26%) 0px 0px 0px 1px;
@@ -62,6 +64,11 @@ picture {
 
 ul {
   list-style-type: none;
+}
+
+p {
+  line-height: 1.563rem;
+  white-space: pre-line;
 }
 
 /* focus visible */

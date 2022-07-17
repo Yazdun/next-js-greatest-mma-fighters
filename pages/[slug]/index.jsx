@@ -1,13 +1,22 @@
-import { Card, Layout, SEO } from '@components/index'
+import { Flag, Layout, MartialArts, SEO } from '@components/index'
 import { data } from '@data/index'
+import css from './styles.module.css'
 
 export default function Fighter(props) {
-  const { fighter } = props
+  const { name, country, bio, martial_arts } = props.fighter
+
   return (
     <>
-      <SEO title={fighter.name} desc={fighter.bio} />
+      <SEO title={name} desc={bio} />
       <Layout>
-        <Card fighter={fighter} />
+        <div className={css.container}>
+          <h1 className={css.title}>
+            <Flag country={country} />
+            {name}
+          </h1>
+          <MartialArts collection={martial_arts} />
+        </div>
+        <p className={css.container}>{bio}</p>
       </Layout>
     </>
   )
