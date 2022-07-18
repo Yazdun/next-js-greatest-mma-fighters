@@ -6,9 +6,7 @@ export const Layout = ({ children }) => {
   return (
     <>
       <Topbar />
-      <motion.main layout {...framer_variants}>
-        {children}
-      </motion.main>
+      <motion.main {...framer_variants}>{children}</motion.main>
     </>
   )
 }
