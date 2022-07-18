@@ -30,7 +30,6 @@
   --clr-success-1: #10ffcb;
   --clr-danger-1: #ff2a43;
   --boxshadow-1: hsl(252, 4%, 26%) 0px 0px 0px 1px;
-  --bs-1: ;
 }
 
 *,
@@ -45,6 +44,20 @@ body {
   font-family: var(--ff-serif);
   background-color: var(--clr-background-1);
   color: var(--clr-foreground-1);
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(61, 61, 61);
 }
 
 a {
