@@ -1,0 +1,42 @@
+.records {
+  padding-block: 3rem;
+  padding-inline: 1rem;
+  border-radius: var(--border-radius-1);
+  background-color: var(--clr-background-2);
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.success {
+  color: var(--clr-success-1);
+}
+
+.danger {
+  color: var(--clr-danger-1);
+}
+
+.draw {
+  opacity: 0.5;
+}
+
+@media only screen and (min-width: 600px) {
+  .item {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .records {
+    width: 50%;
+  }
+}

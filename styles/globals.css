@@ -9,6 +9,8 @@
   --clr-foreground-2: hsl(214, 98%, 61%);
   --clr-primary-1: #0e7af5;
   --clr-primary-2: #dae6f8;
+  --clr-success-1: #34a0a4;
+  --clr-danger-1: #e01e37;
   --boxshadow-1: hsl(225, 35%, 91%) 0px 0px 0px 1px;
   --maxwidth-1: 70rem;
   --border-radius-1: 0.5rem;
@@ -25,6 +27,8 @@
   --clr-foreground-2: hsl(214, 32%, 53%);
   --clr-primary-1: #58a6ff;
   --clr-primary-2: #1b2c43;
+  --clr-success-1: #10ffcb;
+  --clr-danger-1: #ff2a43;
   --boxshadow-1: hsl(252, 4%, 26%) 0px 0px 0px 1px;
   --bs-1: ;
 }

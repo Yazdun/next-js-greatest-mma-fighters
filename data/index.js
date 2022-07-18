@@ -50,7 +50,7 @@ export const data = [
     DOB: 'Sep 20, 1988',
     records: {
       wins: 29,
-      losses: 0,
+      loses: 0,
       draws: 0,
     },
   },
@@ -63,7 +63,7 @@ export const data = [
       countryName: 'United States',
     },
     nickname: 'DC',
-    bio: 'Daniel Cormier is a retired American mixed martial artist best known as the former Ultimate Fighting Championship (UFC) Light Heavyweight and Heavyweight Champion. Born and raised in Louisiana, Daniel initially became interested in professional wrestling at the age of 10. Later, he took up training for the same and participated in a number of junior championships while in high school, where he won three Louisiana State Championships, among many other titles. Post his graduation from college, he embarked on a career as a freestyle wrestler, and he later participated in the 2004 and 2008 Olympic Games for the USA. In freestyle wrestling, he won the Strikeforce Heavyweight Grand Prix Championship and a King of the Cage Heavyweight Championship. At the UFC, he held a heavyweight championship and a light heavyweight championship, thus becoming the second fighter in the UFC history to hold two major titles in two weight classes simultaneously. During his mixed martial arts (MMA) career, he has participated in a total of 26 fights and has a fight record of 22 wins and 3 losses. Out of the wins, 10 were via straight knockouts. He retired from pro wrestling in 2020.',
+    bio: 'Daniel Cormier is a retired American mixed martial artist best known as the former Ultimate Fighting Championship (UFC) Light Heavyweight and Heavyweight Champion. Born and raised in Louisiana, Daniel initially became interested in professional wrestling at the age of 10. Later, he took up training for the same and participated in a number of junior championships while in high school, where he won three Louisiana State Championships, among many other titles. Post his graduation from college, he embarked on a career as a freestyle wrestler, and he later participated in the 2004 and 2008 Olympic Games for the USA. In freestyle wrestling, he won the Strikeforce Heavyweight Grand Prix Championship and a King of the Cage Heavyweight Championship. At the UFC, he held a heavyweight championship and a light heavyweight championship, thus becoming the second fighter in the UFC history to hold two major titles in two weight classes simultaneously. During his mixed martial arts (MMA) career, he has participated in a total of 26 fights and has a fight record of 22 wins and 3 loses. Out of the wins, 10 were via straight knockouts. He retired from pro wrestling in 2020.',
     style:
       "While Cormier is known for his superior wrestling abilities, he has other tools to complement his wrestling that could help him take the title this timearound.After Cormier's victory over Patrick Cummins in February 2014, Joe Roganstated, It is his hands and striking...that separates him from other wrestlers.\n\n It is no secret that Cormier has some heavy hands. When Cummins came in withan overhand right toward the end of the fight, DC just slipped it and counteredwith his own right. That shot ultimately was the beginning of the end forCummins.\n One of his earliest demonstrations of his punching power came againstAntonio Silva in September 2011, as he brought down Silva with a right handinside the opening minute of the fight. The overhand right that floored Bigfootshowcased DC amazing hand speed as well",
     martial_arts: ['Mixed martial arts', 'Freestyle wrestling'],
@@ -83,7 +83,7 @@ export const data = [
     DOB: 'Mar 20, 1979',
     records: {
       wins: 22,
-      losses: 3,
+      loses: 3,
       draws: 0,
     },
   },
@@ -157,7 +157,7 @@ export const data = [
     DOB: 'Aug 19, 1982',
     records: {
       wins: 24,
-      losses: 4,
+      loses: 4,
       draws: 0,
     },
   },
@@ -196,7 +196,7 @@ export const data = [
     DOB: 'Sep 28, 1976',
     records: {
       wins: 36,
-      losses: 5,
+      loses: 5,
       draws: 0,
     },
   },
@@ -229,7 +229,7 @@ export const data = [
     DOB: 'May 30, 1988',
     records: {
       wins: 21,
-      losses: 5,
+      loses: 5,
       draws: 0,
     },
   },
@@ -262,7 +262,7 @@ export const data = [
     DOB: 'Sep 09, 1986',
     records: {
       wins: 31,
-      losses: 7,
+      loses: 7,
       draws: 0,
     },
   },
@@ -303,7 +303,7 @@ export const data = [
     DOB: 'Jul 14, 1988',
     records: {
       wins: 22,
-      losses: 6,
+      loses: 6,
       draws: 0,
     },
   },
@@ -341,7 +341,7 @@ export const data = [
     DOB: 'Aug 13, 1986',
     records: {
       wins: 27,
-      losses: 3,
+      loses: 3,
       draws: 1,
     },
   },
@@ -374,7 +374,7 @@ export const data = [
     DOB: 'Dec 04, 1991',
     records: {
       wins: 23,
-      losses: 7,
+      loses: 7,
       draws: 0,
     },
   },
@@ -416,7 +416,7 @@ export const data = [
     DOB: 'May 19, 1981',
     records: {
       wins: 26,
-      losses: 2,
+      loses: 2,
       draws: 0,
     },
   },
@@ -454,7 +454,7 @@ export const data = [
     DOB: 'Jul 19, 1987',
     records: {
       wins: 26,
-      losses: 1,
+      loses: 1,
       draws: 0,
     },
   },

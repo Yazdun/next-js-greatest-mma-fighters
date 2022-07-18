@@ -25,9 +25,7 @@ export default function Fighter(props) {
     height,
     weight,
     stance,
-    wins,
-    loses,
-    draws,
+    records,
   } = props.fighter
 
   return (
@@ -44,8 +42,8 @@ export default function Fighter(props) {
         <p className={css.container}>{bio}</p>
         <Slider slides={gallery} />
         <p className={cn(css.container, css.paragraph)}>{style}</p>
-        <div className={css.container}>
-          <Records />
+        <div className={cn(css.container, css.info)}>
+          <Records {...records} />
           <div className={css.cards}>
             <Card text={DOB} Icon={FaBirthdayCake} />
             <Card text={height} Icon={GiBodyHeight} />
