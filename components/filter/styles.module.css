@@ -17,7 +17,6 @@
   width: 100%;
 }
 
-.btn:hover,
 .active {
   background-color: var(--clr-primary-1);
   color: white;
@@ -25,4 +24,11 @@
 
 .item {
   flex: 1 1 auto;
+}
+
+@media only screen and (min-width: 800px) {
+  .btn:hover {
+    background-color: var(--clr-primary-1);
+    color: white;
+  }
 }
