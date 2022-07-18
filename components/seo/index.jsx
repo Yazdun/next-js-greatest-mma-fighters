@@ -18,7 +18,7 @@ export const SEO = ({
         locale: 'en_us',
         images: [
           {
-            url: khabib_artwork,
+            url: './artwork.jpg',
             width: 1200,
             height: 630,
             alt: title,
