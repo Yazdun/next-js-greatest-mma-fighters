@@ -12,7 +12,6 @@ import { FaBirthdayCake } from 'react-icons/fa'
 import { data } from '@data/index'
 import css from './styles.module.css'
 import cn from 'classnames'
-import { motion } from 'framer-motion'
 
 export default function Fighter(props) {
   const {
@@ -33,13 +32,13 @@ export default function Fighter(props) {
     <>
       <SEO title={name} desc={bio} />
       <Layout>
-        <motion.div className={css.container}>
+        <div className={css.container}>
           <h1 className={css.title}>
             <Flag country={country} />
             {name}
           </h1>
           <MartialArts collection={martial_arts} />
-        </motion.div>
+        </div>
         <p className={css.container}>{bio}</p>
         <Slider slides={gallery} />
         <p className={cn(css.container, css.paragraph)}>{style}</p>
