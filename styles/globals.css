@@ -93,10 +93,6 @@ p {
   white-space: pre-line;
 }
 
-#__next {
-  min-height: 100vh;
-}
-
 /* focus visible */
 a:focus-visible,
 button:focus-visible {
