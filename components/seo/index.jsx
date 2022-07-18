@@ -17,7 +17,7 @@ export const SEO = ({
         locale: 'en_us',
         images: [
           {
-            url: './opengraph.jpg',
+            url: './opengraph.png',
             width: 1200,
             height: 630,
             alt: title,
