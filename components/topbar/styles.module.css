@@ -1,10 +1,16 @@
 .container {
   box-shadow: var(--boxshadow-1);
+  background-color: var(--clr-background-1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .nav {
   width: 100%;
   max-width: var(--maxwidth-1);
+  background-color: var(--clr-background-1);
+
   margin: auto;
   padding: 1rem;
   display: flex;
