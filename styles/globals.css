@@ -41,18 +41,7 @@
 }
 
 html {
-  overflow: scroll;
-  overflow-x: hidden;
   scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar {
-  width: 4px;
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgb(61, 61, 61);
 }
 
 body {
