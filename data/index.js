@@ -48,9 +48,11 @@ export const data = [
     weight: '70kg',
     stance: 'Orthodox',
     DOB: 'Sep 20, 1988',
-    wins: 29,
-    losses: 0,
-    draws: 0,
+    records: {
+      wins: 29,
+      losses: 0,
+      draws: 0,
+    },
   },
   {
     name: 'Daniel Cormier',
@@ -79,9 +81,11 @@ export const data = [
     weight: '114kg',
     stance: 'Orthodox',
     DOB: 'Mar 20, 1979',
-    wins: 22,
-    losses: 3,
-    draws: 0,
+    records: {
+      wins: 22,
+      losses: 3,
+      draws: 0,
+    },
   },
   {
     name: 'Anderson Silva',
@@ -118,9 +122,11 @@ export const data = [
     weight: '84kg',
     stance: 'Southpaw',
     DOB: 'Apr 14, 1975',
-    wins: 34,
-    losses: 11,
-    draws: 1,
+    records: {
+      wins: 34,
+      loses: 11,
+      draws: 1,
+    },
   },
   {
     name: 'Stipe Miocic',
@@ -149,9 +155,11 @@ export const data = [
     weight: '109kg',
     stance: 'Orthodox',
     DOB: 'Aug 19, 1982',
-    wins: 24,
-    losses: 4,
-    draws: 0,
+    records: {
+      wins: 24,
+      losses: 4,
+      draws: 0,
+    },
   },
   {
     name: 'Fedor Emelianenko',
@@ -186,9 +194,11 @@ export const data = [
     weight: '110kg',
     stance: 'Orthodox',
     DOB: 'Sep 28, 1976',
-    wins: 36,
-    losses: 5,
-    draws: 0,
+    records: {
+      wins: 36,
+      losses: 5,
+      draws: 0,
+    },
   },
   {
     name: 'Amanda Nunes',
@@ -217,9 +227,11 @@ export const data = [
     weight: '61kg',
     stance: 'Orthodox',
     DOB: 'May 30, 1988',
-    wins: 21,
-    losses: 5,
-    draws: 0,
+    records: {
+      wins: 21,
+      losses: 5,
+      draws: 0,
+    },
   },
   {
     name: 'Jose Aldo',
@@ -248,9 +260,11 @@ export const data = [
     weight: '61kg',
     stance: 'Orthodox',
     DOB: 'Sep 09, 1986',
-    wins: 31,
-    losses: 7,
-    draws: 0,
+    records: {
+      wins: 31,
+      losses: 7,
+      draws: 0,
+    },
   },
   {
     name: 'Conor McGregor',
@@ -287,9 +301,11 @@ export const data = [
     weight: '71kg',
     stance: 'Southpaw',
     DOB: 'Jul 14, 1988',
-    wins: 22,
-    losses: 6,
-    draws: 0,
+    records: {
+      wins: 22,
+      losses: 6,
+      draws: 0,
+    },
   },
   {
     name: 'Demetrious Johnson',
@@ -323,9 +339,11 @@ export const data = [
     weight: '61kg',
     stance: 'Orthodox',
     DOB: 'Aug 13, 1986',
-    wins: 27,
-    losses: 3,
-    draws: 1,
+    records: {
+      wins: 27,
+      losses: 3,
+      draws: 1,
+    },
   },
   {
     name: 'Max Holloway',
@@ -354,9 +372,11 @@ export const data = [
     weight: '66kg',
     stance: 'Orthodox',
     DOB: 'Dec 04, 1991',
-    wins: 23,
-    losses: 7,
-    draws: 0,
+    records: {
+      wins: 23,
+      losses: 7,
+      draws: 0,
+    },
   },
   {
     name: 'Georges St-Pierre',
@@ -394,9 +414,11 @@ export const data = [
     weight: '77kg',
     stance: 'Orthodox',
     DOB: 'May 19, 1981',
-    wins: 26,
-    losses: 2,
-    draws: 0,
+    records: {
+      wins: 26,
+      losses: 2,
+      draws: 0,
+    },
   },
   {
     name: 'Jon Jones',
@@ -430,8 +452,10 @@ export const data = [
     weight: '93kg',
     stance: 'Orthodox',
     DOB: 'Jul 19, 1987',
-    wins: 26,
-    losses: 1,
-    draws: 0,
+    records: {
+      wins: 26,
+      losses: 1,
+      draws: 0,
+    },
   },
 ]

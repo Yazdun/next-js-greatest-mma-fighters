@@ -1,10 +1,34 @@
-import { Flag, Layout, MartialArts, SEO, Slider } from '@components/index'
+import {
+  Card,
+  Flag,
+  Layout,
+  MartialArts,
+  Records,
+  SEO,
+  Slider,
+} from '@components/index'
+import { GiWeight, GiBodyHeight, GiNinjaHeroicStance } from 'react-icons/gi'
+import { FaBirthdayCake } from 'react-icons/fa'
 import { data } from '@data/index'
 import css from './styles.module.css'
 import cn from 'classnames'
 
 export default function Fighter(props) {
-  const { name, country, bio, martial_arts, gallery, style } = props.fighter
+  const {
+    name,
+    country,
+    bio,
+    martial_arts,
+    gallery,
+    style,
+    DOB,
+    height,
+    weight,
+    stance,
+    wins,
+    loses,
+    draws,
+  } = props.fighter
 
   return (
     <>
@@ -20,6 +44,15 @@ export default function Fighter(props) {
         <p className={css.container}>{bio}</p>
         <Slider slides={gallery} />
         <p className={cn(css.container, css.paragraph)}>{style}</p>
+        <div className={css.container}>
+          <Records />
+          <div className={css.cards}>
+            <Card text={DOB} Icon={FaBirthdayCake} />
+            <Card text={height} Icon={GiBodyHeight} />
+            <Card text={weight} Icon={GiWeight} />
+            <Card text={stance} Icon={GiNinjaHeroicStance} />
+          </div>
+        </div>
       </Layout>
     </>
   )

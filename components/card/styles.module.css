@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--clr-background-2);
+  border-radius: var(--border-radius-1);
+  font-weight: 600;
+}
+
+.card svg {
+  font-size: 3rem;
+}

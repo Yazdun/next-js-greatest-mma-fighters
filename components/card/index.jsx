@@ -1,5 +1,10 @@
-import React from 'react'
+import css from './styles.module.css'
 
 export const Card = ({ text, Icon }) => {
-  return <div>Card</div>
+  return (
+    <div className={css.card}>
+      <Icon />
+      {text}
+    </div>
+  )
 }

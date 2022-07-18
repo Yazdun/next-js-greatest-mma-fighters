@@ -11,3 +11,9 @@
   gap: 0.5rem;
   font-size: 1.5rem;
 }
+
+.cards {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
