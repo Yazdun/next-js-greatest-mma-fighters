@@ -1,0 +1,14 @@
+.wrapper {
+  padding-inline: 1rem;
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.wrapper h1 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.wrapper p {
+  font-weight: 500;
+}
