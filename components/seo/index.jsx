@@ -1,6 +1,5 @@
 import React from 'react'
 import { NextSeo } from 'next-seo'
-import { khabib_artwork } from '@assets/index'
 
 export const SEO = ({
   title = 'MMA Fighters',
