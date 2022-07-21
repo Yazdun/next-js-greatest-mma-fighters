@@ -53,14 +53,7 @@ git@github.com:Yazdun/next-js-greatest-mma-fighters.git
 2. After you successfully cloned the project, open it in your text editor and
    run `npm install` command to install the dependencies.
 
-3. Then you need to switch to the `starter` branch, in order to do so, run the
-   following command :
-
-```bash
-git pull origin starter
-```
-
-4. Switch to the `starter` branch
+3. Checkout to the `starter` branch
 
 ```bash
 git checkout starter
