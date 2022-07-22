@@ -4,9 +4,6 @@
 <div align="center">
 <h1>MMA Fighters</h1>
   <p align="center">
-    <br />
-    <br />
-    <br />
     <a href="https://mma-fighters.vercel.app">Live Demo</a>
     ·
     <a href="https://github.com/Yazdun/next-js-greatest-mma-fighters/issues">Report Bug</a>
