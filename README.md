@@ -33,6 +33,12 @@ In order to follow the tutorial, you need the starter files which is on the
 `starter` branch. You either have to download the starter files directly, clone
 the project or fork it to your account.
 
+## Prerequisite
+
+1. Having a good concept of React
+2. Having a good concept of CSS
+3. Familiarity with NextJS
+
 ## Download the project
 
 1. Switch to the starter branch using the dropdown menu
