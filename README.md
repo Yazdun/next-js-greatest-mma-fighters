@@ -2,6 +2,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
+<h1>MMA Fighters</h1>
   <p align="center">
     <br />
     <br />
